@@ -1,4 +1,5 @@
 import Greeting from './components/Greeting.js';
+import Async from './components/Async.js';
 import logo from './logo.svg';
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
         </a>
       </header> */}
       <Greeting />
+      <Async />
     </div>
   );
 }
